@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GUI</string>
+
+    <string-array name="entries">
+
+        <item>Select Player</item>
+        <item>Player 1</item>
+        <item>Player 2</item>
+        <item>Player 3</item>
+
+    </string-array>
+</resources>

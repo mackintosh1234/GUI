@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewTeam">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Team  Name"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/black"
+            />
+
+
+
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="3"
+                android:rowCount="4"
+                android:layout_marginTop="5dp"
+                >
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="Stat"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:background="@color/black"
+                    android:layout_gravity="fill"
+                    android:layout_columnWeight="1"
+                    />
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="Team1"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:background="@color/black"
+                    android:layout_gravity="fill"
+                    android:layout_columnWeight="1"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="Team2"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:background="@color/black"
+                    android:layout_gravity="fill"
+                    android:layout_columnWeight="1"
+                    />
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="Stat"
+                    android:background="@drawable/table_content_cell_bg_2"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="fill"
+                    android:layout_columnWeight="1"
+                    />
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="Team1"
+                    android:background="@drawable/table_content_cell_bg_2"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="fill"
+                    android:layout_columnWeight="1"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="Team2"
+                    android:background="@drawable/table_content_cell_bg_2"
+                    android:textStyle="bold"
+                    android:gravity="center"
+
+                    android:layout_gravity="fill"
+                    android:layout_columnWeight="1"
+                    />
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="Stat"
+                    android:background="@drawable/table_content_cell_bg_2"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="fill"
+                    android:layout_columnWeight="1"
+                    />
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="Team1"
+                    android:background="@drawable/table_content_cell_bg_2"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="fill"
+                    android:layout_columnWeight="1"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="Team2"
+                    android:background="@drawable/table_content_cell_bg_2"
+                    android:textStyle="bold"
+                    android:gravity="center"
+
+                    android:layout_gravity="fill"
+                    android:layout_columnWeight="1"
+                    />
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="Stat"
+                    android:background="@drawable/table_content_cell_bg_2"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="fill"
+                    android:layout_columnWeight="1"
+                    />
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="Team1"
+                    android:background="@drawable/table_content_cell_bg_2"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="fill"
+                    android:layout_columnWeight="1"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="Team2"
+                    android:background="@drawable/table_content_cell_bg_2"
+                    android:textStyle="bold"
+                    android:gravity="center"
+
+                    android:layout_gravity="fill"
+                    android:layout_columnWeight="1"
+                    />
+
+
+            </GridLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Pg 1"
+               android:textStyle="bold"
+               android:textColor="@color/white"
+               android:padding="10dp"
+               android:textSize="18dp"
+               android:background="@color/black"
+               />
+
+
+            <TextView
+                android:layout_marginStart="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pg 2"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                />
+            <TextView
+                android:layout_marginStart="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pg 3"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                />
+            <TextView
+                android:layout_marginStart="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pg 4"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                />
+
+
+        </LinearLayout>
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="6"
+            >
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Player"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:layout_gravity="fill"
+                android:layout_columnWeight="1"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Position"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:layout_gravity="fill"
+                android:layout_columnWeight="1"
+                />
+
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Name 1"
+                android:background="@drawable/table_content_cell_bg_2"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_gravity="fill"
+                android:layout_columnWeight="1"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Position 1"
+                android:background="@drawable/table_content_cell_bg_2"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_gravity="fill"
+                android:layout_columnWeight="1"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Name 2"
+                android:background="@drawable/table_content_cell_bg_2"
+                android:textStyle="bold"
+                android:gravity="center"
+
+                android:layout_gravity="fill"
+                android:layout_columnWeight="1"
+                />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Position 2"
+                android:background="@drawable/table_content_cell_bg_2"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_gravity="fill"
+                android:layout_columnWeight="1"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Name 3"
+                android:background="@drawable/table_content_cell_bg_2"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_gravity="fill"
+                android:layout_columnWeight="1"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Position 3"
+                android:background="@drawable/table_content_cell_bg_2"
+                android:textStyle="bold"
+                android:gravity="center"
+
+                android:layout_gravity="fill"
+                android:layout_columnWeight="1"
+                />
+
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Name 4"
+                android:background="@drawable/table_content_cell_bg_2"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_gravity="fill"
+                android:layout_columnWeight="1"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Position 4"
+                android:background="@drawable/table_content_cell_bg_2"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_gravity="fill"
+                android:layout_columnWeight="1"
+                />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Name 5"
+                android:background="@drawable/table_content_cell_bg_2"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_gravity="fill"
+                android:layout_columnWeight="1"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Position 5"
+                android:background="@drawable/table_content_cell_bg_2"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_gravity="fill"
+                android:layout_columnWeight="1"
+                />
+
+        </GridLayout>
+
+
+
+
+
+
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:layout_marginBottom="30dp"
+            android:text="View Selected Player Stats"
+            />
+
+
+    </LinearLayout>
+</ScrollView>
